@@ -45,7 +45,7 @@ print('Hello, ${DateTimeZone.local} from the Dart Time Machine!\n');
 
 var tzdb = await DateTimeZoneProviders.tzdb;
 var brazil = await tzdb["America/São Paulo, America/Rio Branco, America/Campo Grande, America/Brasília, America/Maceió, America/Natal, America/Boa Vista, America/Manaus, America/Rio de Janeiro, America/Belém, America/Belo Horizonte, America/Porto Velho, America/Recife, America/Salvador, America/Exu, America/Goiânia, America/Juàzeiro do Norte, America/Macapá, America/São Luis, America/Cuiabá, America/Fernando de Noronha, America/Florianópolis, America/Curitiba, America/Palmas, America/Maringá
-, America/Porto Alegre, America/João Pessoa, America/Diadema, America/Vitória, America/Teresina, America/Fortaleza, America/Aracaju"];
+, America/Porto Alegre, America/João Pessoa, America/Diadema, America/Vitória, America/Teresina, America/Fortaleza, America/Aracaju, America/Bahia"];
 
 var now = Instant.now();
 
